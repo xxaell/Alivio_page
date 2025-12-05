@@ -11,14 +11,17 @@
 
 .header__nav {
 }
+
 .header__nav-list {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	column-gap: min(70px, 4vw);
 }
+
 .header__nav-item {
 }
+
 .header__nav-link {
 	font-size: 20px;
 	font-weight: 500;
@@ -42,6 +45,10 @@
 	column-gap: 10px;
 }
 
+
+
+
+
 @media (max-width:  992px) {
 	.header__nav-link {
 		font-size: 16px;
@@ -51,9 +58,24 @@
 		font-size: 16px;
 	}
 }
+
+
+
+
+
 @media (max-width:  768px) {
 	.header__nav {
 		display: none;
 	}
 }
+
+
+
+
+
+/* @media (max-width:  480px) {
+	.header__actions {
+		column-gap: 5px;
+	}
+} */
 
